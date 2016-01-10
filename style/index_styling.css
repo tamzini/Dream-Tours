@@ -1,0 +1,372 @@
+
+
+/*  ===================================== Mobile first Responsive =================================== */ 
+
+* {
+    margin: 0px ;
+    padding: 0px ;
+}
+body {
+    padding-top: 100px ;
+    background-color: black;
+    font-family: Verdana,Arial,"sans serif" ;
+}
+/*  ============ page backgrounds =================== */ 
+.fixed-bg {
+    background-image:  url("ski.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main {
+    background-image:   url("beach.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer {
+    background-image:   url("ruins.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.book {
+  
+    background-image:   url("bookBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ==== End of backgrounds ======== */
+
+/* ======================================== styling the header  ======================================= */
+.header {
+    width: 100% ;
+    height: 100px ;
+    position: fixed;
+    top: 0px;
+    z-index: 140 ;
+    background-color: black ;
+    color: orange ;
+}
+.header img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+
+
+/* ==== End of header ======== */
+
+/* ======================================== styling the carousel  ======================================= */
+.container-fluid {
+    margin-left: -10px ;
+    margin-right: -10px ;
+    position: relative;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      height: 300px;
+      margin: 0px;
+  }
+  /* ====== End of carousel  ======== */
+
+  /* ================ styling the nav menu  =============================== */
+   .nav {
+    margin-top: 10px ;
+   
+    width: 100% ;
+    position: relative;
+    z-index: 150;
+   }
+   .nav li {
+    list-style: none;
+    float: left;
+    width: 25%;
+    height: 50px ;
+    text-align: center;
+    line-height: 45px ;
+    background-color: black ;
+
+
+   }
+   .nav a {
+    text-decoration: none;
+    color: #91D014 ;
+
+   }
+   .nav a:hover {
+    color: gold ;
+   }
+   .nav-scrolled {
+    position: fixed;
+    top: 50px;
+
+   }
+  /* ====== End of nav  ======== */
+
+/* ===================================== booking div  ============================== */
+#book {
+  color: transparent ;
+ 
+}
+.book {clear: both;
+       height:700px;
+       position:relative;"
+         }
+.bookTransparentBg {
+
+    width: 95%;
+    margin: 100px auto ;
+    border-radius: 10px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    
+}
+.bookTransparentBg h3 {
+
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.bookForm {
+  opacity: 1.0 ;
+  width: 90%;
+  margin: 20px auto ;
+  font-size: 12px ;
+  font-weight: bold;
+  color: black;
+
+}
+.bookForm input {
+  border-radius: 5px ;
+  padding: 2px 10px ;
+  margin-top: 5px;
+  margin-bottom: 5px ;
+  background-color: #FFC200;
+  height: 40px;
+}
+
+.departure, .destination, .submit {
+  width: 100%;
+}
+.submit {
+  clear: both;
+  margin-top: 20px !important ;
+  margin-bottom: 30px !important ;
+  background-color: #91D014 !important;
+
+}
+.date1 {
+  float: left;
+  width: 48%;
+
+}
+.date2 {
+  float: right;
+  width: 48%;
+}
+/* ====== End of book div  ======== */
+
+/* ======================================== styling the offers div ======================================= */
+.offers {
+ 
+  width: 100%;
+  
+  background-color:#484844;
+  overflow: hidden;
+}
+.offers1 {
+  float: left;
+  width: 90%;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  overflow: hidden;
+  outline: 1px solid black ;
+  box-shadow: 5px 5px 3px black ;
+}
+.offers1 p {
+ float: left;
+  width: 70%;
+  height: 30px;
+  text-align: left;
+  background-color: #91D014  ;
+  color:white ;
+  margin: 0px;
+  line-height: 25px;
+  padding-left: 8px;
+}
+
+.offers1Image {
+  width: 100%;
+  height: 350px;
+ 
+}
+/* .offers1 img:hover {
+  width: 120%;
+ 
+} */
+img.price  {
+  float: right;
+  width: 30%  ;
+  height: 30px ;
+}
+img.price:hover {
+  width: 30%  ;
+  height: 30px ;
+}
+.offers3 {
+  clear: both;
+  margin: 50px 0px;
+  padding: 20px;
+  color: white ;
+}
+.offers3 h3 {
+  color: #91D014;
+  margin-bottom: 20px;
+}
+.offersForm {
+  width: 100%;
+  margin: 30px 0px ;
+}
+.offersForm input {
+  padding: 3px 10px;
+}
+.offersForm img {
+  width: 32px ;
+  height: 32px;
+}
+/* ====== End of offers div  ======== */
+
+/* ===================================== partners div  ============================== */
+.partnersImage {
+  width: 100%;
+}
+.partnersImage img {
+  width: 100%;
+  height: 200px;
+}
+/* ====== End of partners div  ======== */
+
+/* ===================================== contact div  ============================== */
+
+.contact {
+  clear: both;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color:#484844;
+  color: white ;
+
+}
+.map {
+  width: 100%;
+
+}
+.mapIframe {
+  width: 100%;
+  height: 300px ;
+  outline: 1px solid #91D014 ;
+ 
+}
+.address {
+  width: 100%;
+  padding: 20px;
+  
+}
+.address h3 {
+  color: #91D014 ;
+  margin-top: 30px;
+}
+.address img {
+  margin-right: 10px ;
+  background-color: #91D014;
+  border:1px solid #91D014;
+}
+.socialMedia {
+  width: 100%;
+  outline: 1.5px solid #91D014 ;
+  margin-bottom: 50px;
+}
+.socialMediaIcons {
+  width: 200px;
+  margin: 50px auto ;
+  padding-top: 10px ;
+}
+.socialMediaIcons li {
+  list-style: none;
+  float: left;
+  width: 50px;
+  text-align: center;
+}
+.cards {
+  clear: both;
+  width: 150px;
+  margin: 20px auto ;
+  padding-bottom: 0px;
+}
+.cards img {
+  width: 150px;
+  height: 40px;
+}
+
+/* .socialMedia {
+  padding-top: -5px;
+  padding-bottom: 20px;
+  width: 100%;
+  border-top: 2px solid #91D014 ;
+  border-bottom: 2px solid #91D014 ;
+}
+.socialMedia ul {
+
+  width:30% ;
+  height: 40px;
+  margin: 30px auto ;
+
+} 
+.socialMedia li {
+  width: 32px;
+  height: 32px;
+  float: left;
+  list-style: none;
+  margin: 5px;
+
+
+} */
+.payment {
+  clear: both;
+  width: 40%;
+  margin: 15px auto ;
+  
+}
+.payment img {
+  width: 30%;
+  margin-right: 1%;
+}
+
+.copyRight p {
+  clear: both;
+ 
+  text-align: center;
+  font-size: 12px;
+ color: #91D014 ;
+  margin-top:50px; 
+}
+/* ====== End of contact div  ======== */
+
+
+
+
+

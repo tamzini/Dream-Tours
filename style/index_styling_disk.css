@@ -1,0 +1,114 @@
+
+/*  ===================================== styling for laptop =================================== */ 
+
+
+/* ======================================== styling the carousel  ======================================= */
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      height: 500px; 
+  }
+  /* ====== End of carousel  ======== */
+
+  /* ===================================== booking div  ============================== */
+
+.bookTransparentBg {
+    width: 40%;
+    margin: 100px 0px ;
+    margin-left: 2%;
+    background-color: #ffffff;
+    opacity: 0.7;
+    
+}
+
+/* ===================================== partners div  ============================== */
+.partners {
+  width: 100%;
+  background-color: white ;
+  
+}
+.partnersImage {
+  width: 50%;
+  margin: 0px auto;
+}
+.partnersImage img {
+  width: 100%;
+  height: 200px;
+}
+/* ====== End of partners div  ======== */
+
+
+/* ===================================== contact div  ============================== */
+
+.map {
+  width: 48%;
+  float: left;
+  margin-left: 2%;
+  padding-bottom: 100px;
+}
+.mapIframe {
+  height: 400px ;
+}
+.address {
+  float: right;
+  width: 48%;
+  padding: 20px 0px;
+  
+}
+.address h3 {
+  
+  margin-top: 30px;
+}
+
+.socialMedia {
+     clear: both;
+     
+}
+.cards {
+  width: 200px;
+}
+.socialMediaIcons img {
+  width: 40px;
+}
+.cards img {
+  width: 200px;
+  height:70px;
+}
+
+
+/* ===================================== offers div  ============================== */
+
+.offers1 {
+  width: 30%;
+  height: 400px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+.offers1Image {
+  width: 100%;
+  height: 450px;
+ 
+}
+/* .offers1 img:hover {
+  width: 130%;
+  height: 130%;
+ 
+} */
+
+img.price  {
+  float: right;
+  width: 30%  ;
+  height: 30px ;
+}
+img.price:hover {
+  width: 30%  ;
+  height: 30px ;
+}
+
+
+
+
+
+
+
